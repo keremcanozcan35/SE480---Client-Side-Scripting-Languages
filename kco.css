@@ -1,0 +1,247 @@
+body {
+	background-color:black;
+	
+}
+.h11{
+	color:#e67300;
+	position:absolute;
+	left:920px;
+	top:30px;
+	
+}
+.p11{
+	color:#e67300;
+	position:absolute;
+	left:750px;
+	top:70px;
+}
+.p12{
+	color:#e67300;
+	position:absolute;
+	left:1040px;
+	bottom:10px;
+}
+/* The side navigation menu */
+.sideNav{
+	height: 100%; /* 100% Full-height */
+	width: 250px; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: black; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px; /* Place content 60px from the top */
+}
+/* The navigation menu links */
+.sideNav a{
+	background-color: black;
+	border: none;
+	color: 	#e67300;
+	padding: 50px;
+	border-radius: 40%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin: 24px -10px;
+}
+/* When you mouse over the navigation links, change their color */
+.sideNav a:hover{
+	color: white;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sideNav {padding-top: 15px;}
+  .sideNav a {font-size: 18px;}
+}
+.firstPageKCO{
+	  position: absolute;
+      left: 500px;
+      top: 150px;
+	  max-width:100%; 
+	  height:auto;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.cvContainer {
+  position: absolute;
+  width: 20%;
+  left:550px;
+  top:190px;
+}
+
+/* Make the image responsive */
+.cvContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.cvContainer:hover{
+	background-color:orange;
+	transform: scale(1.2);
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.cvContainer1 {
+  position: absolute;
+  width: 20%;
+  left:1100px;
+  top:190px;
+}
+
+/* Make the image responsive */
+.cvContainer1 img {
+  width: 100%;
+  height: auto;
+}
+.cvContainer1:hover{
+	background-color:orange;
+	transform: scale(1.2);
+}
+
+.githubBar{
+  position: absolute;
+  width: 1%;
+  height: auto;
+  left:960px;
+  top:400px;
+}
+.githubBar img{
+	width: 1200%;
+	height: auto;
+	
+}
+
+.githubBar:hover{
+	transform: scale(1.5);
+}
+.instagramBar{
+	position: absolute;
+	width: 1%;
+	height: auto;
+	left:960px;
+	top:240px;
+}
+.instagramBar img{
+	width: 1200%;
+	height: auto;
+}
+
+.instagramBar:hover{
+	transform: scale(1.5);
+}
+
+.linkedinBar{
+	position: absolute;
+	width: 1%;
+	height: auto;
+	left:960px;
+	top:560px;
+}	
+.linkedinBar img{
+	width: 1200%;
+	height: auto;
+}
+
+.linkedinBar:hover{
+	transform: scale(1.5);
+}
+
+.youtubeBar{
+	position: absolute;
+	width: 1%;
+	height: auto;
+	left:960px;
+	top:670px;
+}	
+.youtubeBar img{
+	width: 1200%;
+	height: auto;
+}
+
+.youtubeBar:hover{
+	transform: scale(1.5);
+}
+
+.zero{
+  position: absolute;
+  width: 15%;
+  left:650px;
+  top:140px;
+}
+ .zero img{
+	width: 100%;
+	height: auto;
+ }
+ 
+ .zero h1{
+	 color:#e67300;
+ }
+ 
+ .designPatterns{
+	position: absolute;
+	width: 23%;
+	left:1100px;
+	top:140px;
+ }
+ 
+.designPatterns img{
+	width: 100%;
+	height: auto;
+}
+
+.designPatterns h1{
+	color:#e67300;	
+}
+
+.moneyInSpace{
+	position: absolute;
+	width: 23%;
+	left:1100px;
+	top:540px;
+}
+
+.moneyInSpace img{
+	width:100%;
+	height:auto;
+}
+
+.moneyInSpace h1{
+	color:#e67300;
+}
+
+.openClosed{
+	position: absolute;
+	width: 17%;
+	left:640px;
+	top:540px;	
+}
+
+.openClosed img{
+	width:100%;
+	height:auto;
+}
+
+.openClosed h1{
+	color:#e67300;
+}
+
+.pages{
+	display:inline-block;
+	position:absolute;
+	transform: scale(1.1);
+	left:1000px;
+	top:920px;
+	background-color:#e67300;
+	border-radius: 50%;
+}
+
+.pages a{
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	
+}
